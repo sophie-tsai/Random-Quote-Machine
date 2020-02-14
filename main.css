@@ -8,6 +8,8 @@ body {
     color: white;
     background-color: #008080;
     font-size: 1em;
+		padding: 1vw 2vw;
+	margin: 1vw;
 }
 
 #tweet-quote {
@@ -15,12 +17,14 @@ body {
     background-color: #008080;
     padding: 1vw 2vw;
     font-size: 1em;
+	margin: 1vw;
 }
 
 #quote-box {
     background-color: #F8F9F9;
-    padding: 2vw 5vw;
+    padding: 2vw 3vw;
 		box-shadow: .5vw .5vw 1.2vw #838383;
+		
 }
 
 #text{
