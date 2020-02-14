@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+    <title>Quote generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+
+
+  </head>
+  <body>
+    <div id="quote-box" class="container">
+			<h1 id="beg-quote">"</h1>
+      <h2 id="text">Remember no one can make you feel inferior without your consent.</h2><h1 id="end-quote">"</h1>
+      <h3 id="author">Eleanor Roosevelt</h3>
+      <div class="row align-self-end justify-content-between">
+				<a href="www.twitter.com/intent/tweet"><button type="button" class="btn btn-sm" id="tweet-quote" ><i class="fab fa-twitter"></i></button></a>
+
+        <button type="button" class="btn btn-lg" id="new-quote" onclick="changeEverything()">new quote</button>
+      </div>
+    </div>
+  </body>
+
+  <script src="Quote.js"></script>
+
+</html>
+

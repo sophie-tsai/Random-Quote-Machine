@@ -1,0 +1,49 @@
+body {
+    padding: 20vw 5vw;
+    background-color: #008080;
+}
+
+#new-quote {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #008080;
+    font-size: 1em;
+}
+
+#tweet-quote {
+    color: white;
+    background-color: #008080;
+    padding: 1vw 2vw;
+    font-size: 1em;
+}
+
+#quote-box {
+    background-color: #F8F9F9;
+    padding: 2vw 5vw;
+		box-shadow: .5vw .5vw 1.2vw #838383;
+}
+
+#text{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 3em;
+}
+
+#author{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+		margin-top: -5vh;
+}
+
+#beg-quote {
+	font-family: 'Satisfy', cursive;
+	text-align: left;
+	margin-bottom: -3vh;
+}
+
+#end-quote {
+	font-family: 'Satisfy', cursive;
+	text-align: right;
+	margin-top: -1vh;
+}
