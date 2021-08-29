@@ -1,7 +1,6 @@
 # Random-Quote-Machine
  Generates random quotes.
 
-
 See it live [here](https://sophie-tsai.github.io/Random-Quote-Machine/).
 
 **Check out other projects:**
